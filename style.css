@@ -40,6 +40,7 @@ border-radius: 12px;
   padding: 12px;
   transition: height;
   transition: border;
+  border: 1px dashed red;
 }
 
 
