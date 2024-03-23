@@ -7,7 +7,7 @@ const app = express();
 
 
 // Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname)));
 
 // Members API Routes
 // app.use('/api/members', require('./routes/api/members'));

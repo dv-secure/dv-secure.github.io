@@ -9,11 +9,16 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  x.innerHTML = "Passcode: " + position.coords.latitude +
-    "<br>Passphrase: " + position.coords.longitude;
+  x.innerHTML = "PGP Key: " + position.coords.latitude +
+    "<br>SHA-256 Key: " + position.coords.longitude;
   localStorage.setItem('myList', JSON.stringify(x.innerHTML))
 }
 
 
-
+const retryButton = document.querySelector('.js-retry-location');
+retryButton.addEventListener('click', event => {
+  navigator.geolocation.getCurrentPosition((coords) => {
+    console.log('coords');
+  });
+});
 
