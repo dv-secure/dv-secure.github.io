@@ -22,24 +22,5 @@ retryButton.addEventListener('click', event => {
   });
 });
 
-const popup = new Popup({
-  id: "fishy",
-  fontSizeTitle: 1,
-  title: "Simple. Easy. Secure",
-  backgroundColor: "#ffffff",
-  titleColor: "#05c560",
-  textColor: "#101922",
-  closeColor: "#FF0000",
-  linkColor: "#FFF",
-  underlineLinks: "true",
-  fontSizeMultiplier: 1,
-  titleMargin: "2em",
-  content: `
-  Welcome to easy and secure file encryption!`,
-  borderWidth: ".2em",
-  borderColor: "#FFF",
-  showImmediately: true,
-});
-
 
 
