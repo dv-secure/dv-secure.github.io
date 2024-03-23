@@ -8,9 +8,12 @@ function getLocation() {
   }
 }
 
+const pgp = 'EB85.BB4';
+const shaKey = 'adf-120-b4'
+
 function showPosition(position) {
-  x.innerHTML = "PGP Key: " + position.coords.latitude +
-    "<br>SHA-256 Key: " + position.coords.longitude;
+  x.innerHTML = "PGP Key: " + pgp + position.coords.latitude +
+    "<br>SHA-256 Key: " + shaKey + position.coords.longitude;
   localStorage.setItem('myList', JSON.stringify(x.innerHTML))
 }
 
