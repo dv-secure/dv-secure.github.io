@@ -353,16 +353,17 @@ left:40%
 
 
 .scroll-downs {
-
+position: fixed;
   margin: auto;
   width :29px;
   height: 15px;
+  bottom: 4cqmin;
 
 }
 .mousey {
   width: 3px;
   padding: 5px 10px;
-  height: 55px;
+  height: 35px;
   border: 1px solid var(--dark) ;
   border-radius: 25px;
   opacity: 0.75;
