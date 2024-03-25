@@ -350,35 +350,6 @@ left:40%
   75%  { transform: translateY(0.6em); }
   100% { transform: translateY(0); }
 }
-
-
-.scroll-downs {
-position: fixed;
-  margin: auto;
-  width :29px;
-  height: 15px;
-  bottom: 4cqmin;
-
-}
-.mousey {
-  width: 3px;
-  padding: 5px 10px;
-  height: 35px;
-  border: 1px solid var(--dark) ;
-  border-radius: 25px;
-  opacity: 0.75;
-  box-sizing: content-box;
-}
-.scroller {
-  width: 3px;
-  height: 15px;
-  border-radius: 25%;
-  background-color: var(--dark);
-  animation-name: scroll;
-  animation-duration: 2.2s;
-  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-  animation-iteration-count: infinite;
-}
 @keyframes scroll {
   0% { opacity: 0; }
   10% { transform: translateY(0); opacity: 1; }
