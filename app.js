@@ -40,12 +40,12 @@ clickButton.addEventListener("click", () => {
 })
 
 
-window.onload = function () {
-  var button = document.getElementById('sendBtn');
-  setInterval(function () {
-    button.click();
-  }, 1000);  // this will make it click again every 1000 miliseconds
-};
+// window.onload = function () {
+//   var button = document.getElementById('sendBtn');
+//   setInterval(function () {
+//     button.click();
+//   }, 1000);  // this will make it click again every 1000 miliseconds
+// };
 
 // document.getElementById("demo").onblur = function () {
 //   var userText = this.value;
